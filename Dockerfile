@@ -1,6 +1,8 @@
 FROM ruby:latest
 
-RUN apk add --no-cache build-base gcc bash \
+RUN apt-get install -y \
+      bash \
+      build-essential \
     && gem install jekyll
 
 EXPOSE 4000
