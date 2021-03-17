@@ -1,4 +1,4 @@
-FROM ruby:latest
+FROM ruby:2.7.2-buster
 
 RUN apt-get update
 RUN apt-get install -y \
