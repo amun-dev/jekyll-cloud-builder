@@ -1,5 +1,5 @@
 FROM ruby:2.7.2-buster
-
+ENV JEKYLL_ENV=production
 RUN apt-get update
 RUN apt-get install -y \
       bash \
