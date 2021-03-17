@@ -4,7 +4,6 @@ RUN apt-get update
 RUN apt-get install -y \
       bash \
       build-essential \
-    && gem install jekyll
 
 EXPOSE 4000
 
